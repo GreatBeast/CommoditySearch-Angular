@@ -1,0 +1,296 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+#bgd {
+  margin-top: 0;
+  color: white;
+}
+
+label {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#bgd2 {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1f1f25;
+  padding-bottom: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+small {
+  color: red;
+}
+
+#heading{
+  padding-top:30px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.divcol {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn-form {
+  margin-right: 20px;
+}
+
+.btn div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dpTable {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#navbar{
+  margin: 0 0;
+}
+
+.nav-pills .nav-link.active{
+  color: white;
+  background-color: #1f1f25;
+}
+
+.nav-pills a, .pagination a {
+  color: #1f1f25;
+}
+
+.mainTable {
+  /*width: 100%;*/
+  margin: 20px auto;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.table thead th{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.item-now th, .item-now td {
+  background-color: #c4c4c4;
+}
+
+.item-now:hover th, .item-now:hover td {
+  background-color: #b2b2b2;
+}
+
+.mainTable tbody tr:not(.item-now):hover th, .table tbody tr:not(.item-now):hover td {
+  background-color: #474754;
+  /*opacity:0.5;*/
+  /*filter:alpha(opacity=50);*/
+}
+
+.table tbody th{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn-wl {
+  width: 50px;
+  height: 40px;
+}
+
+#fb-icon {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.progress {
+  width: 60%;
+  margin: 0 auto;
+  position: absolute;
+  left: 20%;
+  margin-bottom: 500px;
+}
+
+.pagination {
+  margin: 0 auto;
+  border: 0;
+}
+
+#page {
+  margin: 0 auto;
+}
+
+.display-table {
+  margin-bottom: 50px;
+}
+
+#noRec1 {
+  margin: 0 auto;
+}
+
+#noRec2 {
+  margin-top: 20px;
+}
+
+#noRec3 {
+  margin-top: 10px;
+}
+
+#noRec4 {
+  margin-top: 20px;
+}
+
+.page-item.active .page-link{
+  background-color: #1f1f25;
+  color: white;
+  border-color: #1f1f25;
+}
+
+.page-item.disabled .page-link{
+  color: grey;
+}
+
+#detail-heading {
+  text-align: center;
+}
+
+#list-btn {
+  width: 70px;
+}
+
+.nav {
+  margin-top: 5px;
+}
+
+.nav-tabs .nav-link {
+  color: #1f1f25;
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: #1f1f25;
+}
+
+.icon-done {
+  color: green;
+}
+
+.icon-clear {
+  color: red;
+}
+
+.num-prog {
+  width: 50px;
+  color: white;
+  transform: translateY(140%) translateX(-10%);
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+}
+
+round-progress {
+  margin-top: -10px;
+}
+
+#tbName {
+  height: 65px;
+  text-align: center;
+}
+
+.modal {
+  background: rgba(0,0,0, 0.6);
+}
+
+.img-border {
+  border: #1f1f25 7px solid;
+}
+
+.photo-col {
+  width: 32.7%;
+  margin: 0.3%;
+}
+
+.photo {
+  width: 100%;
+  margin: 3px;
+  padding: 0 0;
+}
+
+.a-color, .a-color:hover {
+  color: darkcyan;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: #1f1f25;
+  color: white;
+}
+
+.card img {
+  height: 160px;
+  width: 160px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.contentgroup {
+  margin-bottom: 10px;
+}
+
+.card p, .card a {
+  margin-bottom: 0;
+}
+
+.card a {
+  margin-top: 10px;
+}
+
+#lessmore {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#noRec2 {
+  margin-top: 10px;
+}
+
+.btn-yellow {
+  color: darkgoldenrod;
+}
+
+.btn-yellow:hover {
+  color: darkgoldenrod;
+}
+
+#detailCont {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-tabs {
+    padding-right: 0;
+  }
+  .nav-tabs .nav-item {
+    padding: 0 0;
+  }
+  .nav-tabs .nav-link {
+    font-size: 14px;
+    padding: 8px 6px;
+  }
+  #deTable{
+    word-break: break-word;
+  }
+  #deTable tr th:first-child {
+    min-width: 150px;
+  }
+  .mainTable {
+    word-break: keep-all;
+    white-space: nowrap;
+  }
+  #p5select {
+    padding: 0;
+    margin: 10px 0;
+  }
+}
